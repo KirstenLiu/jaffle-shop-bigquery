@@ -4,7 +4,7 @@ default:
     dev:
       type: bigquery
       method: service-account
-      project: "{{ env_var('BQ_PROJECT') }}"
-      dataset: "{{ env_var('BQ_DATASET') }}"
+      project: bigquerytry-477123
+      dataset: jaffle_shop_bq
       threads: 4
-      keyfile: "{{ env_var('BQ_KEYFILE_PATH') }}"
+      keyfile: /Users/kliu/recceAll/jaffle-shop-bigquery/dbt-ser-creds.json
